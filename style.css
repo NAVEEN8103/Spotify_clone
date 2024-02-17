@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 body {
     background-color: antiquewhite;
 }
@@ -5,4 +8,70 @@ body {
 *{
     margin: 0;
     padding: 0;
+}
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav{
+    font-family: 'Ubuntu' , sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: black;
+    height: 64px;
+    color: white;
+    align-items: center;
+}
+nav ul li {
+    padding: 0 12px;
+}
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+}
+.brand {
+    /* yaha pe kuch naya janne ko mila hai 
+    Root element: <li>
+    Child element: <img> and Text node->"Spotify"*/
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 75vh;   /*The element will expand vertically to accommodate content if the content requires more space than the specified minimum height.*/
+}
+.bottom {
+    background-color: black;
+    height: 130px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+#myProgressBar{
+    width: 80vh;
+    /* yaha pe text-align: center; kaam nahi karega kyoki ye kisi element ke andar ke text ko center karta hai , ye kisi block level elements ke alignment ko center nahi karta hai.*/
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i {
+    font-size: 30px;
+    cursor: pointer; /*iss property se jab bhi cursor hover karega tab vo pointer me badal jayega.*/
 }
