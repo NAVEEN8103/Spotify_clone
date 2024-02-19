@@ -75,6 +75,7 @@ nav ul li {
 }
 
 #myProgressBar{
+    cursor: pointer;
     width: 80vw;
     /* yaha pe text-align: center; kaam nahi karega kyoki ye kisi element ke andar ke text ko center karta hai , ye kisi block level elements ke alignment ko center nahi karta hai.*/
 }
@@ -114,8 +115,9 @@ nav ul li {
 .songInfo{
     position: absolute;
     left: 10vw;
+    font-family: 'varela Round' , sans-serif;
 }
- .songinfo img {
+ .songInfo img {
     opacity: 0;
-    transition: opacity 1s ease-in;
+    transition: opacity 0.4s ease-in;
  }

@@ -20,54 +20,54 @@
         <h1>Best of NCS - No Copyright Sounds</h1>
         <div class="songItemContainer">
             <div class="songItem">
-                <img src="covers/1.jpg" alt="1">
-                <span>Music 1 </span>
-                <span class="songlistplay"><span class="timestamp">03:50 <i class="fa-regular fa-circle-play"></i></span></span>
+                <img alt="1">
+                <span class="songName">Music 1 </span>
+                <span class="songlistplay"><span class="timestamp">03:50 <i id="0" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
             </div>
             <div class="songItem">
-                <img src="covers/2.jpg" alt="2">
-                <span>Music 2 </span>
-                <span class="songlistplay"><span class="timestamp">02:33 <i class="fa-regular fa-circle-play"></i></span></span>
+                <img  alt="2">
+                <span class="songName">Music 2 </span>
+                <span class="songlistplay"><span class="timestamp">02:33 <i id="1" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
             </div>
             <div class="songItem">
-                <img src="covers/3.jpg" alt="3">
-                <span>Music 3 </span>
-                <span class="songlistplay"><span class="timestamp">04:33 <i class="fa-regular fa-circle-play"></i></span></span>
+                <img alt="3">
+                <span class="songName">Music 3 </span>
+                <span class="songlistplay"><span class="timestamp">04:33 <i id="2" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
             </div>
             <div class="songItem">
-                <img src="covers/4.jpg" alt="4">
-                <span>Music 4 </span>
-                <span class="songlistplay"><span class="timestamp">04:27 <i class="fa-regular fa-circle-play"></i></span></span>
+                <img alt="4">
+                <span class="songName">Music 4 </span>
+                <span class="songlistplay"><span class="timestamp">04:27 <i id="3" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
             </div>
             <div class="songItem">
-                <img src="covers/5.jpg" alt="5">
-                <span>Music 5 </span>
-                <span class="songlistplay"><span class="timestamp">03:28 <i class="fa-regular fa-circle-play"></i></span></span>
+                <img alt="5">
+                <span class="songName">Music 5 </span>
+                <span class="songlistplay"><span class="timestamp">03:28 <i id="4" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
             </div>
             <div class="songItem">
-                <img src="covers/6.jpg" alt="6">
-                <span>Music 6 </span>
-                <span class="songlistplay"><span class="timestamp">03:28 <i class="fa-regular fa-circle-play"></i></span></span>
+                <img  alt="6">
+                <span class="songName">Music 6 </span>
+                <span class="songlistplay"><span class="timestamp">03:28 <i id="5" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
             </div>
             <div class="songItem">
-                <img src="covers/7.jpg" alt="7">
-                <span>Music 7 </span>
-                <span class="songlistplay"><span class="timestamp">04:33 <i class="fa-regular fa-circle-play"></i></span></span>
+                <img alt="7">
+                <span class="songName">Music 7 </span>
+                <span class="songlistplay"><span class="timestamp">04:33 <i id="6" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
             </div>
             <div class="songItem">
-                <img src="covers/8.jpg" alt="8">
-                <span>Music 8 </span>
-                <span class="songlistplay"><span class="timestamp">03:50 <i class="fa-regular fa-circle-play"></i></span></span>
+                <img alt="8">
+                <span class="songName">Music 8 </span>
+                <span class="songlistplay"><span class="timestamp">03:50 <i id="7" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
             </div>
             <div class="songItem">
-                <img src="covers/9.jpg" alt="9">
-                <span>Music 9 </span>
-                <span class="songlistplay"><span class="timestamp">03:28 <i class="fa-regular fa-circle-play"></i></span></span>
+                <img alt="9">
+                <span class="songName">Music 9 </span>
+                <span class="songlistplay"><span class="timestamp">03:28 <i id="8" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
             </div>
             <div class="songItem">
-                <img src="covers/10.jpg" alt="10">
-                <span>Music 10 </span>
-                <span class="songlistplay"><span class="timestamp">04:27 <i class="fa-regular fa-circle-play"></i></span></span>
+                <img  alt="10">
+                <span class="songName">Music 10 </span>
+                <span class="songlistplay"><span class="timestamp">04:27 <i id="9" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
             </div>
         </div>
       </div>
@@ -75,15 +75,15 @@
     </div>
 
     <div class="bottom">
-      <input type="range" name="range" id="myProgressBar" min="0" max="100" />
+      <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100" />
       <div class="icons">
         <!-- fontawesome icons -->
-        <i class="fa-solid fa-backward-step"></i>
-        <i class="fa-regular fa-circle-play"></i>
-        <i class="fa-solid fa-forward-step"></i>
+        <i class="fa-solid fa-backward-step" id="previous"></i>
+        <i class="fa-regular fa-circle-play" id="masterPlay"></i>
+        <i id="next" class="fa-solid fa-forward-step"></i>
       </div>
       <div class="songInfo">
-        <img src="playing.gif" width="50px" alt="playing_gif"> Music 1
+        <img src="playing.gif" width="50px" alt="playing_gif" id="gif"> <span id="masterSongName">Music 1</span>
       </div>
     </div>
 
